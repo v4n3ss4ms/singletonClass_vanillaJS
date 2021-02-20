@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $f-primary;
+  font-weight: $w-normal;
+  background-color: $c-background;
+  margin: 0 auto;
+  max-width: $bs-xl;
+}
+
+@mixin main-title {
+  font-weight: $w-bold;
+  color: $c-primary;
+}
+
+/*@media (max-width:768px) {
+}*/

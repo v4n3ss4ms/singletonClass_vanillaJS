@@ -1,0 +1,132 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto:wght@400;700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: #f5f5f5;
+  margin: 0 auto;
+  max-width: 840px;
+}
+
+/*@media (max-width:768px) {
+}*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px 0 30px;
+}
+.header__title {
+  font-weight: 700;
+  color: #000000;
+  font-size: 35px;
+  line-height: 43px;
+}
+.header__subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+}
+.content--list {
+  flex-direction: column;
+}
+.content--list .results {
+  max-width: 100%;
+}
+
+.results {
+  max-width: 375px;
+  flex: 1 0 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  color: #4a4a4a;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.results-table caption {
+  font-weight: 700;
+  color: #000000;
+  padding-bottom: 23px;
+  text-align: left;
+}
+.results-table tr {
+  text-align: left;
+}
+.results-table td {
+  vertical-align: top;
+  padding: 0px 15px 15px 0;
+}
+.results-table__score {
+  font-size: 13px;
+  opacity: 62%;
+}
+
+/*# sourceMappingURL=styles.css.map */
